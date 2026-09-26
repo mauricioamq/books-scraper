@@ -1,0 +1,14 @@
+# Resume cache written by scrape_books.py - regenerate by re-running the scraper.
+raw/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+.DS_Store
+Thumbs.db
+
+~$*.xlsx
+~$*.csv
