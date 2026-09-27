@@ -15,6 +15,8 @@ python scrape_books.py
 
 Output: `data/books.csv` and `data/books.xlsx`.
 
+Alternatively, upload and run [`scrape_books.ipynb`](scrape_books.ipynb) directly in Google Colab.
+
 Useful flags:
 
 ```bash
@@ -80,7 +82,8 @@ and the text is stored verbatim rather than silently edited.
 ## Layout
 
 ```
-scrape_books.py     the scraper
+scrape_books.py     the scraper CLI script
+scrape_books.ipynb  Google Colab / Jupyter notebook version
 requirements.txt    dependencies
 data/               generated dataset (csv + xlsx)
 raw/                resume cache, git-ignored
